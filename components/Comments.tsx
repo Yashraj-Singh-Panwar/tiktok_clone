@@ -7,6 +7,7 @@ import useAuthStore from '../store/authStore';
 import NoResults from './NoResults';
 import { IUser } from '../types';
 
+// Defining IProps
 interface IProps {
   isPostingComment: Boolean;
   comment: string;
